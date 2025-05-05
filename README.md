@@ -6,9 +6,12 @@ Welcome to this comprehensive repository where we delve into the world of PyTorc
 
 🔍 **What to Expect**: Each exercise is crafted to clarify intricate aspects of PyTorch, making your learning journey smoother. We're committed to frequent updates with new exercises, so stay tuned for more!
 
-## Contents 📖
+## Classification Exercises
 
-Dive into our extensive list of exercises, each accompanied by explanatory videos:
+주어진 input data가 0이거나 1이거나를 구분하는 분류(classification) 모델을 만들어보겠습니다.
+
+classification 문제는 정해진 output label이 있는 문제입니다. 
+ 다음 단계로는 새로운 데이터를 생성(generate) 하는 생성 모델(generative model) 쪽을 경험해 보시는 걸 추천드려요. PyTorch 생태계에서 대표적인 방법들을 몇 가지 정리하면:
 
 ### Tabular Classification Exercises
 
@@ -39,8 +42,19 @@ Dive into our extensive list of exercises, each accompanied by explanatory video
 
 ### Text Classification Exercises
 
-1. Ex5 - Text Binary Classification with Bert Notebook
-2. Ex5_1 - Improve Text Classification with roberta Notebook
-3. 
+1. Ex5 - [News Headlines Sarcasm Detection] Text Binary Classification with Bert Notebook
+  - 설명: 사전 학습된 모델 (bert)을 사용한 전이 학습(Transfer Learning)
+  - 데이터: news headlines
+2. Ex5_1 - [News Headlines Sarcasm Detection] Improve Text Classification with roberta Notebook
+  - 설명: 사전 학습된 모델 (roberta)을 사용한 전이 학습(Transfer Learning)
+  - 데이터: news headlines
+3. [Covid19 Vaccine Tweets] Text Classification with roberta Notebook
+  - 설명: 사전 학습된 모델 (roberta)을 사용한 전이 학습(Transfer Learning)
+  - 데이터: covid19 vaccine tweets
 
-More exercises will come soon and I will try to keep this repo updated
+## Generative Exercises
+
+
+이제까지 “0/1”로 구분하는 분류(classification) 모델을 만들어 봤다면, 다음 단계로는 새로운 데이터를 생성(generate) 하는 생성 모델(generative model)을 만들어 보겠습니다.
+
+
