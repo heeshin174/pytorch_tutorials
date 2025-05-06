@@ -31,7 +31,7 @@ classification 문제는 정해진 output label이 있는 문제입니다.
   - 설명: 사전 학습된 모델 (EfficientNet)을 사용한 전이 학습(Transfer Learning)
   - 데이터: bean leaf
   - 포인트: autocast, GradScaler
-4. Apple Image Classification Notebook
+4. Ex6 - Apple Image Classification Notebook
   - 설명: 사전 학습된 모델 (EfficientNet)을 사용한 전이 학습(Transfer Learning)
   - 데이터: apple
   - 포인트: autocast, GradScaler
@@ -48,9 +48,13 @@ classification 문제는 정해진 output label이 있는 문제입니다.
 2. Ex5_1 - [News Headlines Sarcasm Detection] Improve Text Classification with roberta Notebook
   - 설명: 사전 학습된 모델 (roberta)을 사용한 전이 학습(Transfer Learning)
   - 데이터: news headlines
-3. [Covid19 Vaccine Tweets] Text Classification with roberta Notebook
+3. Ex7 - [Covid19 Vaccine Tweets] Text Classification with roberta Notebook
   - 설명: 사전 학습된 모델 (roberta)을 사용한 전이 학습(Transfer Learning)
   - 데이터: covid19 vaccine tweets
+
+## Object Detection Exercises
+
+
 
 ## Generative Exercises
 
